@@ -1,0 +1,34 @@
+Ambiente de Desenvolvimento:
+notion.so (ver)
+figma.com (ver)
+
+Configurar ambiente de desenvolvimento.
+1) node.js (nodejs.org)
+2) VS Code (Instalar a extensão Dracula)
+2 Extensões
+  - Dracula
+  - Material Icon Theme
+
+
+Back-end ( O que o usuário não vê!)
+  - Regras de Negócio
+  - Conexão com banco de dados
+  - Envio de Email
+  - Comunicação com webservices   
+  - Autenticação com usuário
+  - Criptografia e Segurança
+  
+
+Criar um projeto pelo nodeJS
+1) npm init -y
+2) instalar o framework express
+  npm install express
+  
+  
+ React
+ 
+ SPA - single-Page Aplications
+ 
+ npx create-react-app frontend
+ 
+ iniciar npm start (dentro do diretório)

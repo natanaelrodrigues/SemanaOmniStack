@@ -1,0 +1,16 @@
+Instalar o insomnia (insomnia.rest) => para teste do back-end.
+ Instalar o nodemon (npm install nodemon -D) para gerenciar o back-end para não ter que reiniciar
+  - Alterar o packge e em scripts incluir a seguinte linha 
+      "start": "nodemon index.js"
+      e para iniciar digitar npm start
+      
+Instalar o Query Builder para acessar o banco (knex.js)
+depois de instalado digitar
+  npx knex init
+  
+  
+  ver o site http status code
+  
+instalar o cors
+  npm install cors
+ 
