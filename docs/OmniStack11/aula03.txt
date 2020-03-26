@@ -1,0 +1,18 @@
+no vscode Ctrl + P
+    settings.json
+    Adicionar as linhas abaixo
+    "emmet.syntaxProfiles": {"javascript": "jsx"},
+    "emmet.includeLanguages": {"javascript": "javascriptreact"},
+
+npm install react-icons (Instala o pacote com os icos do react)
+
+Para instalar o sistema de rotas
+npm install react-router-dom
+
+
+
+instaar um cliente http no projeto (axios)
+npm install axios
+
+
+npm start > (inicia o react)

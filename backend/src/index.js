@@ -1,11 +1,11 @@
 const express = require('express'); // importando a biblioteca express.
-const cors = require(cors);
+const cors = require('cors');
 const routes = require('./routes'); // importa as rotas
 
 const app = express(); // instancia minha aplicação.
 
 // manda o express converter a requisição
-app.use(cors);
+app.use(cors());
 app.use(express.json());
 app.use(routes);
 
@@ -33,4 +33,7 @@ app.use(routes);
   */
 
 
-app.listen(3333); // manda ouvir na porta 
+//app.listen(3333); // manda ouvir na porta 
+app.listen(3333, () => {
+  console.log('Ouvindo na porta 3333');
+  }); // manda ouvir na porta
