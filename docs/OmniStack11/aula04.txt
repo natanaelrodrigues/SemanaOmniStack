@@ -1,0 +1,24 @@
+Instalar o Expo
+    npm install -g expo-cli
+para testar o expo 
+    expo -h
+
+algumas issues do expo no repositório da rocktseat
+
+para criar um projeto expo 
+    expo ini mobile
+
+para abrir o projeto no celular
+    yarn start
+
+
+instalar o React Navigatino
+npm install @react-navigation/native
+
+se estiver usando o expo 
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+senão
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+instalar a navegação stack
+npm install @react-navigation/stack
